@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.olegsagenadatrytwo.w6_d4_customviews.MainActivity">
+
+    <com.olegsagenadatrytwo.w6_d4_customviews.CustomPieGraph
+        android:id="@+id/pie_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_weight="10"
+        tools:layout_editor_absoluteX="0dp"/>
+    <com.olegsagenadatrytwo.w6_d4_customviews.CustomButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom button"
+        style="@style/cellStyle"
+        android:id="@+id/btnCustom"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"/>
+    <com.olegsagenadatrytwo.w6_d4_customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctvText"
+        android:text="Custom TextView"
+        android:textSize="34dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
